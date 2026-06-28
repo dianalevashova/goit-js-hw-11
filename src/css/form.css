@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px 0;
+}
+
+.form input[name='search-text'] {
+  width: 272px;
+  height: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form button {
+  min-width: 91px;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}
+
+.gallery {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+  border: 1px solid #808080;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.gallery-link {
+  display: block;
+  line-height: 0;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.info p {
+  margin: 0;
+  gap: 2px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.info p::first-line {
+  font-weight: 700;
+}
